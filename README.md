@@ -1,6 +1,6 @@
-## Hi there 👋
+I'm a student at Columbia University, where I'm pursuing my interests in the broader SWE and the tighter scope of ML—both in its applied and research-based sense.
 
-Let's build 🙆‍♂️
+Below is a project I worked on under the guidance of a PhD student from the Columbia CS department, working on tracing Python class hierarchies to help conduct research on mitigating pickle-based vulnerabilities of Machine Learning models.
 
 <!--
 **HassamGani/HassamGani** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
