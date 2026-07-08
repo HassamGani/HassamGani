@@ -1,98 +1,94 @@
-<h1 align="center">Hi 👋, I'm Hassam Gani</h1>
-<h3 align="center">AI/ML-Based Software Developer</h3>
+<div align="center">
 
-<p align="center">
-  <a href="https://hassamgani.com"><img src="https://img.shields.io/badge/Website-hassamgani.com-blue?style=for-the-badge&logo=google-chrome&logoColor=white" /></a>
-  <a href="https://github.com/HassamGani"><img src="https://img.shields.io/badge/GitHub-HassamGani-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
-  <a href="mailto:gani.hassamabdul@gmail.com"><img src="https://img.shields.io/badge/Email-gani.hassamabdul@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <a href="https://linkedin.com/in/HassamGani"><img src="https://img.shields.io/badge/LinkedIn-HassamGani-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-</p>
+# Hassam Gani
+
+### Teaching machines to learn from their own *mistakes.*
+
+`reinforcement learning & NL2SQL research @ Columbia` · `founder of MorningsideMunch`
+
+<a href="https://hassamgani.com"><img src="https://img.shields.io/badge/hassamgani.com-1a1a1a?style=for-the-badge&logo=safari&logoColor=white" /></a>
+<a href="https://linkedin.com/in/hassamgani"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<a href="mailto:gani.hassamabdul@gmail.com"><img src="https://img.shields.io/badge/Email-c0925e?style=for-the-badge&logo=maildotru&logoColor=white" /></a>
+
+</div>
+
+```
+epoch 300 ······················· loss 0.012 ✓   trained on scroll
+```
+
+### `whoami`
+
+I build reinforcement-learning and text-to-SQL agents at Columbia, then ship the
+ones that make it out of the lab. Half of what I do is research; the other half is
+keeping real software running, two papers in flight and one app a thousand students
+open at lunch. I think in four languages and debug in all of them.
 
 ---
 
-## 🧠 About Me
+## 🔬 Research · Columbia DAPLab
 
-- 🎯 Columbia sophomore focused on applied ML end-to-end design, training, evaluating, and deploying models across vision, text, audio, and tabular data.
-- 🚀 Recent work includes a PyTorch DQN that learns Snake via self-play, an OpenCV-based MacOS FaceID that trains in seconds without GPUs, and an agentic Columbia RAG assistant.
-- 🧠 Skills in Python, C++, Java, React, C, Bash, TypeScript, HTML5, CSS, PyTorch, Matplotlib, Scikit-Learn, Langchain, OpenCV, NumPy, Pandas.
-- 🎓 B.S. in Computer Science, Columbia University in the City of New York, Expected Graduation May 2028.
+**Reinforcement Learning Researcher** — self-improving reasoning · `Mar 2026 → now`
+
+> Building a self-improvement framework (targeting **AAAI / ICLR**) that turns an
+> LLM's own wrong answers into synthetic training data through a challenger–solver–critic
+> **GRPO** self-play loop. Reproduced **R-Zero** across 4 base models and 7 math
+> benchmarks, then showed its reported +6.49 gain shrinks to **+0.89** under a properly
+> measured baseline. `+3.8 avg acc` on Qwen3-8B · `+9.1` on OlympiadBench · 30+ H100 runs.
+
+**NL2SQL Researcher** — text-to-SQL · `May 2026 → now`
+
+> Authoring an **ICLR submission** showing a **graph-based semantic layer** over raw
+> table schemas makes LLM database agents more accurate on **BIRD** and **LiveSQLBench**,
+> beating SQL-agent, Spider-Agent, and ReFoRCE. Wrote 9K+ lines of Python: auto-generated
+> PuppyGraph schemas over **58 Postgres databases**, a Cypher ReAct agent with a matched
+> SQL twin, and a GPT-5 eval harness over **1,350 tasks**. `8× graph-agent accuracy lift`.
+
+<sub>Earlier: **ML Engineer & Researcher** @ Columbia Software Systems Lab, built cpyAnalyzer to catch malware hiding in pickle-based ML models (loaded 79.8% of benign models, rejected 100% of malicious).</sub>
 
 ---
 
-## 🛠️ Skills & Technologies
+## 🍽️ Ventures
 
-### 💻 Languages
+**MorningsideMunch** — founder & CEO · [morningsidemunch.com](https://www.morningsidemunch.com/)
+
+> The dining app for Columbia & Barnard. **1,000+ users** in under a month, over 30% of
+> dining-plan holders, now in partnership talks to become Columbia's official dining app.
+> Behind it: a Cloudflare-bypass scraping pipeline running headless Chromium in Vercel
+> lambdas behind a Redis distributed lock, feeding a multi-tier cache and hand-rolled
+> HTTP/2 APNs that cut per-refresh load from **20+ requests to 1** across **21 halls**.
+
+---
+
+## 🧪 Selected Projects
+
+| Project | What it is | Stack |
+|---|---|---|
+| **[xPredict](https://github.com/HassamGani/xai)** · 🏆 xAI Hackathon Honorable Mention | Live prediction market pricing X posts in real time; 2 LightGBM models correcting engine prices in logit space | LightGBM · FastAPI · X API |
+| **[FaceGuard](https://github.com/HassamGani/FaceGuard)** | FaceID for macOS that trains on your face in 6s without a GPU | OpenCV · numpy |
+| **[SmartSnake](https://github.com/HassamGani/SmartSnake)** | A deep Q-learning agent that plays Snake; +733% by game 100 | PyTorch |
+| **myHomer** | Campus-aware RAG advisor over a per-user ChromaDB index | RAG · ChromaDB · React |
+| **[cpyAnalyzer](https://github.com/wunused/python-ast)** | ML code analyzer flagging malicious pickle transformations | Python · CPython |
+
+---
+
+## 🛠️ Toolkit
+
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=java&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white)
-
-### ⚙️ Frameworks & Tools
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-BF4F72?style=flat-square&logo=matplotlib&logoColor=white)
-![Scikit-Learn](https://img.shields.io/badge/Scikit-Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
-![Langchain](https://img.shields.io/badge/Langchain-000000?style=flat-square&logo=langchain&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-00599C?style=flat-square&logo=opencv&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![veRL](https://img.shields.io/badge/veRL-c0925e?style=flat-square)
+![vLLM](https://img.shields.io/badge/vLLM-302f2c?style=flat-square)
+![CUDA](https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 
-### 🗃️ Databases
-![Langchain](https://img.shields.io/badge/Langchain-000000?style=flat-square&logo=langchain&logoColor=white)
+<div align="center">
 
----
+<br>
 
-## 📱 Projects
+*The rest of the training run lives at* **[hassamgani.com](https://hassamgani.com)** ↗
 
-| Project | Description | Tech Stack |
-|---------|-------------|------------|
-| **[FaceGuard] (github.com/HassamGani/FaceGuard)** | Invented a lightweight facial recognition security software that quickly trains on owner’s face within 6 seconds without GPUs. | Python, OpenCV, Bash |
-| **[SmartSnake] (github.com/HassamGani/SmartSnake)** | Built a reinforcement learning agent in PyTorch that plays Snake, with a two-layer network using 11 inputs, 256 hidden units, and 3 outputs. | Python, PyTorch, Pygame |
-| **[myHomer] (hassamgani.com/projects#myhomer)** | Developed a campus-aware chatbot that uses Retrieval Augmented Generation over 470,944 chunks of embedded Columbia resources. | Python, Langchain, ChromaDB |
-| **[cpyAnalyzer] (github.com/wunused/python-ast)** | Pickle-based Machine Learning models contain high cybersecurity risks — so I built this analyzer to mitigate them. | Python, AST |
-
----
-
-## 🏆 Awards & Achievements
-
-- Contributed to generating policies that correctly loaded 79.8% of benign pickle-based ML models while rejecting 100% of malicious ones by developing cpyAnalyzer.
-
----
-
-## 📚 Publications
-
-- Credited in preliminary draft of forthcoming research paper on practical use and vulnerability testing of custom-made pickle-based models.
-
----
-
-## 🤝 Volunteer Experience
-
-- **Black Muslim Student Association, Events Committee Member**
-  - Preached, advocated, and ensured Black Muslims have as much of a say in our affairs as any other by organizing 7 major events.
-
----
-
-## 🌐 Languages
-
-- Spanish
-- Portuguese
-- Arabic
-- Turkish
-- English
-
----
-
-## 📫 Contact
-
-- 💼 LinkedIn: [HassamGani](https://linkedin.com/in/HassamGani)
-- 🌍 Website: [hassamgani.com](https://hassamgani.com)
-- 📧 Email: [gani.hassamabdul@gmail.com](mailto:gani.hassamabdul@gmail.com)
-- 📞 Phone: (929) 823-5143
-
----
-
-<p align="center">
-  <em>⚡ "The best way to predict the future is to invent it." — Alan Kay</em>
-</p>
+</div>
