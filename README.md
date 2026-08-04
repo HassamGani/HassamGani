@@ -63,7 +63,7 @@ open at lunch. I think in four languages and debug in all of them.
 
 | Project | What it is | Stack |
 |---|---|---|
-| **[xPredict](https://github.com/HassamGani/xai)** · 🏆 xAI Hackathon Honorable Mention | Live prediction market pricing X posts in real time; 2 LightGBM models correcting engine prices in logit space | LightGBM · FastAPI · X API |
+| **[xPredict](https://github.com/HassamGani/xai)** · xAI Hackathon | Live prediction market pricing X posts in real time; 2 LightGBM models correcting engine prices in logit space | LightGBM · FastAPI · X API |
 | **[FaceGuard](https://github.com/HassamGani/FaceGuard)** | FaceID for macOS that trains on your face in 6s without a GPU | OpenCV · numpy |
 | **[SmartSnake](https://github.com/HassamGani/SmartSnake)** | A deep Q-learning agent that plays Snake; +733% by game 100 | PyTorch |
 | **myHomer** | Campus-aware RAG advisor over a per-user ChromaDB index | RAG · ChromaDB · React |
